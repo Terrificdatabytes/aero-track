@@ -1,4 +1,4 @@
-# AeroTrack-Transit — Basic Functional Prototype (SIH 2026)
+# AeroTrack-Transit — Basic Functional Prototype
 
 A single-process, runnable demo of the AeroTrack-Transit idea — collapses
 the full 12-module scaffold (see the original scaffold's `README.md` module
