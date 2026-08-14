@@ -41,10 +41,4 @@ Open **http://localhost:3000**. You'll see:
 - One hardcoded route/city — swap the `STOPS` array in `server.js` for real
   stop coordinates.
 
-## Where to go next
 
-Once this demo lands, you can graduate pieces back out to the full
-scaffold — e.g. swap `computeEta()` for a real call to a trained model
-service, or point `onSighting()` at a real MQTT topic so `01`/`02` firmware
-can plug in directly, since the message shapes already match
-`03-shared-protocol-spec`.
