@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<title>AeroTrack-Transit — Prototype</title>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>AeroTrack-Transit <span class="tag">basic prototype</span></h1>
+    <div class="sim-controls">
+      <button id="startBtn">▶ Start</button>
+      <button id="stopBtn">⏸ Stop</button>
+      <label>Sim speed
+        <input id="speedRange" type="range" min="1" max="30" value="8" />
+        <span id="speedVal">8x</span>
+      </label>
+    </div>
+  </header>
+
+  <main>
+    <div id="map"></div>
+    <aside id="sidebar">
+      <h2>Buses</h2>
+      <div id="busList"></div>
+
+      <h2>Live sighting log</h2>
+      <div id="log"></div>
+    </aside>
+  </main>
+
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script src="/socket.io/socket.io.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
